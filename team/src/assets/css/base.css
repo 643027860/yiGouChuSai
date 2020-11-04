@@ -1,0 +1,39 @@
+/*不可见*/
+.noSee{
+  display: none;
+}
+/*超出显示省略号*/
+.overPointr{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+/*超出2行显示省略号*/
+.overPointr2{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+/*不能选中*/
+.noSelect{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*Ul清边距*/
+.MyUl{
+  padding: 0;
+  margin: 0;
+}
+/*清除浮动*/
+.clearFloat{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
